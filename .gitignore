@@ -5,8 +5,6 @@ __pycache__/
 *.pyc
 checkpoints/
 demo_outputs*/
-internet_inputs/*_annotated.jpg
-internet_inputs/*_graph.json
 __pycache__/
 checkpoints/
 .DS_Store

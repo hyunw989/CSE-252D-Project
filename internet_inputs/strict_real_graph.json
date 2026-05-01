@@ -1,0 +1,43 @@
+{
+  "question": "Is the yellow cup to the right of the blue bottle?",
+  "obj1": "yellow cup",
+  "obj2": "blue bottle",
+  "relation": "right_of",
+  "answer": false,
+  "answer_str": "no",
+  "confidence": 0.9,
+  "evidence": [
+    {
+      "claim": "yellow cup right of blue bottle",
+      "passed": false,
+      "obj1_bbox": {
+        "x1": 0.3270445168018341,
+        "y1": 0.6170956641435623,
+        "x2": 0.4394834339618683,
+        "y2": 0.8254044502973557,
+        "confidence": 0.8882886171340942,
+        "label": "yellow cup"
+      },
+      "obj2_bbox": {
+        "x1": 0.42674608528614044,
+        "y1": 0.23714902997016907,
+        "x2": 0.5319972485303879,
+        "y2": 0.7940416038036346,
+        "confidence": 0.9630364775657654,
+        "label": "blue bottle"
+      },
+      "obj1_depth": 0.6157,
+      "obj2_depth": 0.4784,
+      "dx": -0.0961,
+      "dy": 0.2057,
+      "dz": 0.1373,
+      "iou": 0.0282,
+      "rule_applied": "cx(obj1)-cx(obj2)=-0.096 > 0.02",
+      "failure_reason": "relation_false: cx(obj1)-cx(obj2)=-0.096 > 0.02"
+    }
+  ],
+  "iterations": 1,
+  "crop_history": [],
+  "failure_mode": "",
+  "verified": true
+}
