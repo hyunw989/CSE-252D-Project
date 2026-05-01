@@ -1,4 +1,4 @@
-# Spatial Evidence Agent
+# Grounded Chain-of-Evidence for Spatial Visual Question Answering
 
 A training-free three-agent pipeline for verified spatial visual question
 answering. Given an RGB image and a yes/no spatial question, the system returns
